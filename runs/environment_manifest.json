@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-28T03:32:38.901780+00:00",
+  "python": "3.12.12",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "packages": {
+    "pandas": "3.1.0",
+    "pyarrow": "26.0.0",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "tqdm": "4.70.1",
+    "ollama": "0.6.3",
+    "huggingface_hub": "2.3.0"
+  },
+  "models": {
+    "gpt-oss:20b": {
+      "status": "available",
+      "digest": "f38aa0c53da5f8c49d08c43a99df24ff53167fe68e24664a7777288e7656fdfe",
+      "size_gb": 13.79,
+      "parameter_size": "20.9B",
+      "quantization": "MXFP4",
+      "answer": "OK",
+      "uses_thinking": true,
+      "thinking_chars": 77,
+      "load_check": "pass"
+    },
+    "gemma4:26b": {
+      "status": "available",
+      "digest": "48eb98ec778c163d87f69d735fcdd79e345063af9af4685613fd018ae5debf5e",
+      "size_gb": 16.15,
+      "parameter_size": "",
+      "quantization": "",
+      "answer": "OK",
+      "uses_thinking": true,
+      "thinking_chars": 260,
+      "load_check": "pass"
+    }
+  }
+}
